@@ -1,12 +1,15 @@
 body{
-    margin: 0;
+    margin: 0 35px;
     font-family: 'Fredoka',sans-serif;
+    width: calc(100% - 70px);
+    
 }
 .secao1{
     border-bottom: 1px solid #d5d5d5;
 }
 .largura-ilimitada{
-    width: 800px;
+    width:calc(100% - 80px);
+    padding: 0 40px;
     margin: 0 auto;  
 }
 .secao1 p {
@@ -32,8 +35,9 @@ h1,h2,h3{
     padding: 50px 20px;
 }
 .secao-sobre img {
-    width:250px;
+    margin: 20px 40px;
     height: 180px;
+    box-shadow: -10px -5px 15px 5px  rgba(8, 6, 6, 0.205);    
 }
 .secao-sobre span {
     border-left: 1px solid;
